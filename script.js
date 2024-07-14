@@ -15,7 +15,7 @@ const printNumbersAndWords = function () {
 		}
 	}
 };
-// printNumbersAndWords();
+printNumbersAndWords();
 
 /* 2. Write a function that takes a string input representing a simple arithmetic expression (only addition and subtraction) and returns the result. */
 
@@ -50,7 +50,7 @@ function evaluate(expression) {
 
 	return arithmaticArr[arithmaticArr.length - 1];
 }
-// console.log(evaluate("65536-536+1"));
+console.log(evaluate("65536-536+1"));
 
 /* 3. Write a function that takes a nested array and returns a flattened array.*/
 
@@ -66,7 +66,7 @@ function flattenArray(array) {
 	return flattenedArr;
 }
 
-// console.log(flattenArray([[12, 45], -4, "nisarg", ["vishal", "ramesh"]]));
+console.log(flattenArray([[12, 45], -4, "nisarg", ["vishal", "ramesh"]]));
 
 /* 4. Write a function that checks if two given strings are anagrams of each other.*/
 
@@ -85,7 +85,7 @@ function isAnagrams(str1, str2) {
 		return false;
 	}
 }
-// console.log(isAnagrams("dormitory", "dirty room"));
+console.log(isAnagrams("dormitory", "dirty room"));
 
 /* 5. Write a function that takes an array and returns a new array with duplicates removed.*/
 function condensedArray(arr) {
@@ -97,7 +97,7 @@ function condensedArray(arr) {
 	});
 	return newArr;
 }
-// console.log(condensedArray([1, 1, 1, 1, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4]));
+console.log(condensedArray([1, 1, 1, 1, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4]));
 
 /* 6. Write a function that takes a string and capitalizes the first letter of each word in the string. */
 function capitalizeFirstLetter(str) {
@@ -109,7 +109,7 @@ function capitalizeFirstLetter(str) {
 
 	return newStr;
 }
-// console.log(capitalizeFirstLetter("hELlo WoRld"));
+console.log(capitalizeFirstLetter("hELlo WoRld"));
 
 /* 7. Write a function that generates the first n numbers of the Fibonacci sequence. */
 function fibonacci(n) {
@@ -132,7 +132,7 @@ function fibonacci(n) {
 	return sequence;
 }
 
-// console.log(fibonacci(12));
+console.log(fibonacci(12));
 
 /* 8. Implement a simple HashMap class with put, get, and remove methods. */
 class HashMap {
@@ -173,17 +173,17 @@ class HashMap {
 }
 
 const hashMap = new HashMap();
-// hashMap.put("name", "Nisarg");
-// console.log(hashMap.get("name"));
-// hashMap.remove("name");
-// console.log(hashMap.get("name"));
+hashMap.put("name", "Nisarg");
+console.log(hashMap.get("name"));
+hashMap.remove("name");
+console.log(hashMap.get("name"));
 
 /* 9. Write a function that filters out even numbers from an array. */
 
 function evenNumbersArray(array) {
 	return array.filter((item) => item % 2 === 0);
 }
-// console.log(evenNumbersArray([1, 2, 3, 4, 5, 6, "nisarg", "ramesh", 45, 46]));
+console.log(evenNumbersArray([1, 2, 3, 4, 5, 6, "nisarg", "ramesh", 45, 46]));
 
 /* 10. Write a function that converts a given string to title case (capitalizing the first letter of each word). */
 function titleCase(str) {
